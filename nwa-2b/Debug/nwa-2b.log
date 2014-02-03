@@ -1,0 +1,73 @@
+﻿Build started 10/9/2012 2:09:45 PM.
+     1>Project "c:\Users\nwani.m\documents\visual studio 2010\Projects\nwa-2b\nwa-2b\nwa-2b.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\nwa-2b.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\nwa-2b.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\nwa-2b.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "nwa-2b.cpp" /clr:nostdlib 
+         AssemblyInfo.cpp
+         nwa-2b.cpp
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2544: expected ')' for operator '()'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2146: syntax error : missing ';' before identifier 'ostream'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2530: '()' : references must be initialized
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2530: 'ostr' : references must be initialized
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2143: syntax error : missing ';' before '&'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2512: 'std::basic_ostream<_Elem,_Traits>' : no appropriate default constructor available
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74): error C2059: syntax error : ')'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(75): error C2470: 'aCard' : looks like a function definition, but there is no parameter list; skipping apparent body
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(121): error C2146: syntax error : missing ';' before identifier 'deal'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(126) : see reference to class template instantiation 'deck<T>' being compiled
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(121): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(121): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(121): warning C4183: 'deal': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(122): error C2061: syntax error : identifier 'card'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(125): error C2923: 'node' : 'card' is not a valid template type argument for parameter 'T'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74) : see declaration of 'card'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(128): error C2955: 'deck' : use of class template requires template argument list
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(128): error C2509: '{ctor}' : member function not declared in 'deck'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(142): error C2955: 'deck' : use of class template requires template argument list
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(142): error C2509: 'shuffle' : member function not declared in 'deck'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(146): error C2955: 'deck' : use of class template requires template argument list
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(146): error C2509: '{dtor}' : member function not declared in 'deck'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(155): error C2955: 'deck' : use of class template requires template argument list
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(155): error C2143: syntax error : missing ';' before 'deck<T>::deal'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(155): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(155): error C2371: 'card' : redefinition; different basic types
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(74) : see declaration of 'card'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(155): error C2509: 'deal' : member function not declared in 'deck'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2955: 'deck' : use of class template requires template argument list
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(116) : see declaration of 'deck'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2146: syntax error : missing ')' before identifier 'n'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2761: 'void deck<T>::replace(void)' : member function redeclaration not allowed
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2059: syntax error : ')'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(163): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(173): error C2255: 'friend' : not allowed outside of a class definition
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(178): warning C4552: '<<' : operator has no effect; expected operator with side-effect
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa-2b\nwa-2b\flip.h(179): error C2440: '=' : cannot convert from 'node<T> *' to 'node *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>nwa-2b.cpp(12): error C2133: 'aDeck' : unknown size
+     1>nwa-2b.cpp(12): error C2512: 'deck' : no appropriate default constructor available
+         Generating Code...
+     1>Done Building Project "c:\Users\nwani.m\documents\visual studio 2010\Projects\nwa-2b\nwa-2b\nwa-2b.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
